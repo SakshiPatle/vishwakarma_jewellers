@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Header</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Noto+Sans:wght@200;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="Vishlogo.png" alt="Logo">
+                </a>
+                </div>
+                <div class="bottom-links">
+                    <ul>
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <li><a href="shop.html">SHOP</a></li>
+                        <li><a href="testimonials.html">TESTIMONALS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="Banner.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="Banner2.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="Banner.png" alt="Third slide">
+                </div>
+            </div>
+            <ol class="carousel-indicators d-none d-sm-flex">
+                <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+                <li data-target="#carouselExampleControls" data-slide-to="2"></li>
+            </ol>
+        </div>
+
+        
+
+     
+
+
+
+          <div class="containers">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="content">
+                        <h2>Exquisite <span style="color: #271E3D;">elegance,</span><br>
+                            timeless <span style="color: #271E3D;">beauty.</span></h2>
+                        <p>Whether you seek a statement piece that commands attention or a<br>
+                         delicate adornment that whispers elegance, our collection has<br>
+                          something to cater to every desire.  Discover the magic that is<br>
+                           Vishwakarma Jewellers and let our exceptional creations empower<br>
+                            you to shine brighter than ever before.</p>
+                            
+                            <p>Welcome to a world where dreams become tangible, where beauty<br>
+                                 knows no bounds, and where jewelry becomes an extension of your<br>
+                                  extraordinary self.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="Bangles.png" class="img-fluid" alt="Responsive Image">
+                </div>
+            </div>
+        </div>      
+        
+        <div class="container mt-5">
+            <div class="btn-group btn-group-center" role="group" aria-label="Buttons">
+                <button type="button" class="btn3" onclick="showImages('button1')">SILVER</button>
+                <button type="button" class="btn3" onclick="showImages('button2')">GOLD</button>
+                <button type="button" class="btn3" onclick="showImages('button3')">POLKI</button>
+                <button type="button" class="btn3" onclick="showImages('button4')">DIAMONDS</button>
+            </div>
+        
+            <div class="image-container" id="button1Images">
+                <div class="image_pic1">
+                <img src="Pic1.png" alt="Button 1 Image 1" Class="Pic1">
+                <img src="Pic2.png" alt="Button 1 Image 2" class="Pic2">
+                <img src="Pic3.png" alt="Button 1 Image 3" Class="Pic3">
+            </div>
+            <div class="image_pic2">
+                <img src="Pic4.png" alt="Button 1 Image 4" class="Pic4">
+                <img src="Pic5.png" alt="Button 1 Image 5" class="Pic5">
+                <img src="Pic6.png" alt="Button 1 Image 6" class="Pic6">
+            </div>
+            </div>
+        
+            <div class="image-container" id="button2Images" style="display: none;">
+                <div class="image_pic1">
+                    <img src="Pic1.png" alt="Button 1 Image 1" Class="Pic1">
+                    <img src="Pic2.png" alt="Button 1 Image 2" class="Pic2">
+                    <img src="Pic3.png" alt="Button 1 Image 3" Class="Pic3">
+                </div>
+                <div class="image_pic2">
+                    <img src="Pic4.png" alt="Button 1 Image 4" class="Pic4">
+                    <img src="Pic5.png" alt="Button 1 Image 5" class="Pic5">
+                    <img src="Pic6.png" alt="Button 1 Image 6" class="Pic6">
+                </div>
+            </div>
+        
+            <div class="image-container" id="button3Images" style="display: none;">
+                <div class="image_pic1">
+                    <img src="Pic1.png" alt="Button 1 Image 1" Class="Pic1">
+                    <img src="Pic2.png" alt="Button 1 Image 2" class="Pic2">
+                    <img src="Pic3.png" alt="Button 1 Image 3" Class="Pic3">
+                </div>
+                <div class="image_pic2">
+                    <img src="Pic4.png" alt="Button 1 Image 4" class="Pic4">
+                    <img src="Pic5.png" alt="Button 1 Image 5" class="Pic5">
+                    <img src="Pic6.png" alt="Button 1 Image 6" class="Pic6">
+                </div>
+            </div>
+        
+            <div class="image-container" id="button4Images" style="display: none;">
+                <div class="image_pic1">
+                    <img src="Pic1.png" alt="Button 1 Image 1" Class="Pic1">
+                    <img src="Pic2.png" alt="Button 1 Image 2" class="Pic2">
+                    <img src="Pic3.png" alt="Button 1 Image 3" Class="Pic3">
+                </div>
+                <div class="image_pic2">
+                    <img src="Pic4.png" alt="Button 1 Image 4" class="Pic4">
+                    <img src="Pic5.png" alt="Button 1 Image 5" class="Pic5">
+                    <img src="Pic6.png" alt="Button 1 Image 6" class="Pic6">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container custom-container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="Earring.png" class="img-fluid" alt="Responsive Image">
+                </div>
+                <div class="col-md-6">
+                    <div class="contents">
+                        <h3>Unleash Your</h3>
+                        <h2>Inner Radiance</h2>
+                        <p>Step into a world where vibrant colors dance and shimmer, where<br>
+                            elegance meets audacity, and where your inner radiance takes<br>
+                            center stage. It is with great excitement that we present our latest<br>
+                            jewelry collection - <b>the Spectra Collection.</b></p>
+                        <div class="button-container">
+                            <button type="button1" class="btn1">VIEW ALL</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+<div class="pic">
+    <img src="Banner2.png">
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 mb-4 center-div d-flex justify-content-center align-items-center">
+            <div class="card text-center custom-card">
+                <img src="Feature_Icons-03.png" class="card-img-top" alt="Image 1" />
+                <div class="card-body">
+                    <p class="card-text">Free Doorstep Delivery</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4 center-div d-flex justify-content-center align-items-center">
+            <div class="card text-center custom-cards">
+                <img src="Feature_Icons-01.png" class="card-img-top" alt="Image 2">
+                <div class="card-body">
+                    <p class="card-text">Crafted by seasoned craftsmen</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4 center-div d-flex justify-content-center align-items-center">
+            <div class="card text-center custom-card">
+                <img src="Feature_Icons-02.png" class="card-img-top" alt="Image 3">
+                <div class="card-body">
+                    <p class="card-text">BIS hallmarked Gold</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid text-center text-black py-3">
+    <h1 class="display-4">What Customers <span style="color: #271E3D;">Say</span></h1>
+</div>
+
+<div class="container-fluid mt-5">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Background.png" class="d-block w-100" alt="Image 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <p>“Their bold and unique designs always stand out, and I feel confident and empowered when<br>
+                     wearing their pieces. I highly recommend them to anyone who wants to make a statement with<br>
+                      their jewelry."</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Background.png" class="d-block w-100" alt="Image 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <p>"I recently had the opportunity to visit Vishwakarma Jewellers and I must say that I was extremely<br>
+                     impressed with my overall experience. The store itself exuded elegance and sophistication, creating a welcoming<br>
+                      and luxurious atmosphere."</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Background.png" class="d-block w-100" alt="Image 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <p>"Recently visited Vishwakarma Jewellers and I would like to mention the excellent customer service <br>
+                        provided at the sore. Their willingness to go the extra mile in ensuring customer satisfaction was evident <br>
+                        in their friendly and accommodating approach." </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <!-- Centered Heading -->
+    <h1 class="center-heading">Our Newest <span style="color: #271E3D;">Products</span></h1>
+  
+    <!-- Images and Button Row -->
+    <div class="row center-content">
+      <!-- Four Images -->
+      <div class="col-md-3">
+        <img src="Photo.png" alt="Image 1">
+      </div>
+      <div class="col-md-3">
+        <img src="Photo1.png" alt="Image 2">
+      </div>
+      <div class="col-md-3">
+        <img src="Photo2.png" alt="Image 3">
+      </div>
+      <div class="col-md-3">
+        <img src="Photo3.png" alt="Image 4">
+      </div>
+    </div>
+   
+      <div class="text-center">
+        <button type="button" class="btn">VIEW ALL</button>
+      </div>
+    </div>
+
+
+
+    <footer class="footer">
+        <div class="footer-logo">
+            <img src="Vishlogo.png" alt="Logo">
+        </div>
+         
+        <div class="menu-item">
+            <a href="#" class="menu">ABOUT US</a>  
+            <a href="#" class="menu">SHOP</a>  
+            <a href="#" class="menu">TESTIMONALS</a>  
+            <a href="#" class="menu">CONTACT</a>  
+        </div>
+
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <div class="box">
+                       
+                       <img src="Phone.png">
+                   
+                        <p>+91 74101 552555<br>
+                            +91 07224 234341</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="box">
+                     <img src="Address.png">
+                   
+                        <p>Main Road, Daryapur,<br>
+                            Daryapur- Banosa, Maharashtra 444803</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="box">
+                       <img src="Email.png">
+                        <p>vishwakarmajewellersdar@gmail.com </p>
+                            <p1>hello</p1>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="social-icons">
+            <a href="#" class="fa fa-twitter"></a>  
+            <a href="#" class="fa fa-facebook"></a>  
+            <a href="#" class="fa fa-instagram"></a>  
+            <a href="#" class="fa fa-whatsapp"></a>  
+        </div>
+        <hr style="width:80%; background-color: #E8A467">
+        <p> © Copyright 2023-2024 | All Rights Reserved To Vishwakarma Jewellers | Designed & Developed By <a href="https://www.hypotenuse.in/" style="font-weight: bold; color: white;">Hypotenuse</a></p>
+    </footer>
+ 
+
+  
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+<script>
+    
+     $(document).ready(function () {
+        $('#carouselExampleControls').carousel();
+    });
+
+        let currentSlide = 0;
+    const slides = document.querySelectorAll('.slide');
+    const dots = document.querySelectorAll('.dot');
+
+    function showSlide(index) {
+        slides.forEach((slide, i) => {
+            slide.style.transform = `translateX(${100 * (i - index)}%)`;
+        });
+    }
+
+    function updateDots(index) {
+        dots.forEach(dot => dot.classList.remove('active'));
+        dots[index].classList.add('active');
+    }
+
+    dots.forEach((dot, index) => {
+        dot.addEventListener('click', () => {
+            showSlide(index);
+            updateDots(index);
+            currentSlide = index;
+        });
+    });
+
+
+    function showImages(buttonId) {
+    // Get all image containers
+    var imageContainers = document.querySelectorAll('.image-container');
+
+    // Hide all image containers
+    for (var i = 0; i < imageContainers.length; i++) {
+        imageContainers[i].style.display = 'none';
+    }
+
+    // Show the specific image container based on the button clicked
+    var targetImageContainer = document.getElementById(buttonId + 'Images');
+    if (targetImageContainer) {
+        targetImageContainer.style.display = 'block';
+    }
+}
+
+</script>
+    </body>
+    
+    </html>
